@@ -114,3 +114,10 @@ curl_auth <学号> <密码> [终端类型]
 # 通过 mwan3 指定认证 wan2
 mwan3 use wan2 curl_auth <学号> <密码> [终端类型]
 ```
+
+## 卸载
+
+```bash
+chmod +x uninstall.sh
+./uninstall.sh
+```
