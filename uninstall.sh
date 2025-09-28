@@ -8,3 +8,5 @@ rm /usr/bin/mwan3_auth
 rm /usr/bin/mwan3_status
 rm /usr/bin/curl_auth
 rm /etc/init.d/mwan3_auth
+rm /var/run/mwan3_auth.pid
+rm /tmp/log/mwan3_auth.log
