@@ -15,6 +15,7 @@
 - `mwan3_status.sh` - 状态查询工具
 - `curl_auth.sh` - 独立的curl认证工具
 - `install.sh` - 安装脚本
+- `uninstall.sh` - 卸载脚本
 - `mwan3_auth.init` - OpenWrt系统服务配置
 
 ## 安装
