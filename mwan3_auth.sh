@@ -58,7 +58,7 @@ do_authentication() {
             log "WAR" "$mwan3_name" "Login failed! Response: $json_response"
             
             # 检查是否被检测到共享上网
-            if echo "$response" | grep -q "等待5分钟即可正常使用"; then
+            if echo "$response" | grep -q "共享"; then
                 log "WAR" "$mwan3_name" "Waiting 5 minutes ..."
                 BAN_TIMERS["$mwan3_name"]=300
             fi
